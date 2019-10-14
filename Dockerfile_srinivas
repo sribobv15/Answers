@@ -1,0 +1,4 @@
+FROM python:3
+ADD read_data.py /
+RUN pip install flask
+CMD [ "python", "./read_data.py" ]
